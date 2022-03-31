@@ -8,7 +8,7 @@ public class Lambda01 {
 
     public static void main(String[] args) {
         //1'den 20'ye kadar olan sayilari yazdir.
-        IntStream.rangeClosed(1,20).forEach(MethodLambda2::bosluklaYazdir);//baslangic ve bitis degerleri dahil.--> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+        IntStream.rangeClosed(1,20).forEach(MethodLambda2::bosluklaYazdir); //baslangic ve bitis degerleri dahil.--> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 
         System.out.println();
 
